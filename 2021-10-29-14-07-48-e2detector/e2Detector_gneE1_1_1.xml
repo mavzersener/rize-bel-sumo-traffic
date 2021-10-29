@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-10-29 16:50:20 by Eclipse SUMO GUI Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.net.xml"/>
+        <route-files value="C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.passenger.trips.xml,C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.bicycle.trips.xml,C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.motorcycle.trips.xml,C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.pedestrian.rou.xml"/>
+        <additional-files value="C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.poly.xml,C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.e2.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\ugur.coruh\Desktop\rize-bel-sumo-traffic\2021-10-29-14-07-48-e2detector\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="300.00" id="e2Detector_gneE1_1_1" sampledSeconds="16.81" nVehEntered="15" nVehLeft="15" nVehSeen="15" meanSpeed="12.05" meanTimeLoss="0.11" meanOccupancy="1.30" maxOccupancy="50.00" meanMaxJamLengthInVehicles="0.00" meanMaxJamLengthInMeters="0.00" maxJamLengthInVehicles="0" maxJamLengthInMeters="0.00" jamLengthInVehiclesSum="0" jamLengthInMetersSum="0.00" meanHaltingDuration="0.00" maxHaltingDuration="0.00" haltingDurationSum="0.00" meanIntervalHaltingDuration="0.00" maxIntervalHaltingDuration="0.00" intervalHaltingDurationSum="0.00" startedHalts="0.00" meanVehicleNumber="0.11" maxVehicleNumber="1" />
+   <interval begin="300.00" end="600.00" id="e2Detector_gneE1_1_1" sampledSeconds="95.47" nVehEntered="32" nVehLeft="30" nVehSeen="32" meanSpeed="4.45" meanTimeLoss="2.03" meanOccupancy="9.81" maxOccupancy="65.30" meanMaxJamLengthInVehicles="0.19" meanMaxJamLengthInMeters="0.84" maxJamLengthInVehicles="2" maxJamLengthInMeters="9.14" jamLengthInVehiclesSum="56" jamLengthInMetersSum="252.62" meanHaltingDuration="29.00" maxHaltingDuration="30.00" haltingDurationSum="58.00" meanIntervalHaltingDuration="29.00" maxIntervalHaltingDuration="30.00" intervalHaltingDurationSum="58.00" startedHalts="2.00" meanVehicleNumber="0.42" maxVehicleNumber="2" />
+   <interval begin="600.00" end="704.00" id="e2Detector_gneE1_1_1" sampledSeconds="208.00" nVehEntered="0" nVehLeft="0" nVehSeen="2" meanSpeed="0.00" meanTimeLoss="104.00" meanOccupancy="65.28" maxOccupancy="65.28" meanMaxJamLengthInVehicles="2.00" meanMaxJamLengthInMeters="9.03" maxJamLengthInVehicles="2" maxJamLengthInMeters="9.03" jamLengthInVehiclesSum="208" jamLengthInMetersSum="938.97" meanHaltingDuration="133.00" maxHaltingDuration="134.00" haltingDurationSum="266.00" meanIntervalHaltingDuration="104.00" maxIntervalHaltingDuration="104.00" intervalHaltingDurationSum="208.00" startedHalts="0.00" meanVehicleNumber="2.00" maxVehicleNumber="2" />
+</detector>
