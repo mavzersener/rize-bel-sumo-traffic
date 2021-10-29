@@ -1,5 +1,3 @@
-
-
 # TRAFİK SİMÜLASYON ÇALIŞTAYI EĞİTİMİ
 
 # SUMO (Simulation of Urban MObility)
@@ -7,8 +5,6 @@
 Sumo açık kaynak kodlu, taşınabilir yani Windows, Linux ve Macos işletim sistemlerinde çalışabilen mikro ölçekte ve çok modlu trafik simülasyon paketidir. 
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-05-40-image.png)
-
-
 
 Proje Eclipse Kominitesine bağlı şekilde sürekli geliştirilmektedir.
 
@@ -34,11 +30,7 @@ https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi
 
 https://www.python.org/ftp/python/2.7.18/python-2.7.18.msi
 
-
-
 Kurulum dosyasını kurduktan sonra sistem ayarlarında "path" değişkeninin güncellenmiş olması gerekir. Bu şekilde python dosyalarını çalıştırabiliriz. 
-
-
 
 Başlat -> Çalıştır açarak  **cmd** yazınız
 
@@ -60,13 +52,9 @@ Python 2.7.18
 
 Eğer ki bunu göremiyorsanız python kurulumu yaptığımız klasoru sisteme tanıtmamız gerekmektedir.
 
-
-
 Öncelikle kurulum yaptığımız python 2.7 klasorune gidiyoruz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-45-08-image.png)
-
-
 
 Benim durumda aşağıdaki klasor yolu
 
@@ -75,8 +63,6 @@ C:\Python27
 ```
 
 Sonrasında sistem değişkenlerine girip path değişkenini güncelliyorum. 
-
-
 
 Başlat -> Bu Bilgisayar -> Özellikler 
 
@@ -108,8 +94,6 @@ Bunu sistem kullanıcıları için de yapıyoruz
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-53-50-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-54-10-image.png)
 
 Bütün pencerelere OK diyerek kayderek kapatıyoruz.  Yeni bir konsol ekranı açıp aşağıdaki gibi 
@@ -136,21 +120,15 @@ Bunu gördükten sorna SUMO dosyasını indirip kurabiliriz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-06-16-image.png)
 
-
-
 Linke tıkladığınız aşağıdaki gibi kurulum dosyası bilgisayarınıza inecektir. 
 
 (Chrome Browser için)
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-08-08-image.png)
 
-
-
 Bu açık kaynak bir proje olduğu için doğrudan kaynak koduna erişiminiz mevcuttur. Ayrıca diğer işletim sistemi seçeneklerini de yine aynı seçim kutusundan seçebilirsiniz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-07-17-image.png)
-
-
 
 Ayrıca ana menüdeki download kısmından da gerekli kurulum dosyasını indirebilirsiniz.
 
@@ -176,8 +154,6 @@ Açılan pencereden Next kısmına tıklayınız
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-19-42-image.png)
 
-
-
 I Accept the terms the License Management kutusunu işaretleyerek Next butonuna basınız.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-19-55-image.png)
@@ -186,13 +162,9 @@ Aşağıdaki gibi kurulum dosyalarının nereye kopyalanacağını göreceksiniz
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-20-49-image.png)
 
-
-
 PYTHONPATH
 
 [What is PYTHONPATH environment variable in Python?](https://www.tutorialspoint.com/What-is-PYTHONPATH-environment-variable-in-Python)
-
-
 
 Bu adımdan sonra kurulum başlayacak
 
@@ -206,8 +178,6 @@ Böylelikle kurulum tamamlanmış olacak
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-23-06-image.png)
 
-
-
 # Kaynak Koda Erişim
 
 Projenin koduna viewongithub butonu ile erişim sağlayabilirsiniz
@@ -217,8 +187,6 @@ Projenin koduna viewongithub butonu ile erişim sağlayabilirsiniz
 [GitHub - eclipse/sumo: Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.](https://github.com/eclipse/sumo)
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-13-11-37-image.png)
-
-
 
 # Program Arayüzleri
 
@@ -256,11 +224,7 @@ OSM Web Wizard uygulamasını açıyoruz. (aslında bir python script)
 
 python script çalışıp bize seçim yapabileceğimiz bir haritayı internet tarayıcısında açacaktır.
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-02-23-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-02-34-image.png)
 
@@ -288,8 +252,6 @@ Seçimleri yapıp "Generate Scenario" butonuna tıklıyoruz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-07-46-image.png)
 
-
-
 hem internet tarayıcısında hem console ekranında süreçler ile ilgili işlemleri görebilirsiniz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-07-54-image.png)
@@ -297,8 +259,6 @@ hem internet tarayıcısında hem console ekranında süreçler ile ilgili işle
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-08-34-image.png)
 
 işlem bitince otomatik bir şekilde SUMO'yu açarak seçtiğiniz haritanın simulasyonunu çalışır halde size sunuyor.
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-09-49-image.png)
 
@@ -376,8 +336,6 @@ aracın rotasını gösterebilir, takip edebilir. Yol tercihlerini görebiliriz.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-24-30-image.png)
 
-
-
 Bu simulasyon dosyalarını kullanıcı klasorunde sumo  klasorune çıkarmaktadır.
 
 ```batch
@@ -388,11 +346,7 @@ oluşturduğunuz her bir OSMWebWizard çıktısı buraya tarih saat ile düşmek
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-30-22-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-14-31-00-image.png)
-
-
 
 ### osm.sumocfg
 
@@ -432,7 +386,6 @@ Asıl ana configurasyonların hangilerinin kullanılacağını tutan dosyadır. 
     </gui_only>
 
 </configuration>
-
 ```
 
 Dosya içindeki aşağıdaki tanımlara bakarsak
@@ -459,8 +412,6 @@ Yolculukların tanımları
 <route-files value="osm.passenger.trips.xml,osm.bicycle.trips.xml,osm.motorcycle.trips.xml,osm.pedestrian.rou.xml"/>
 ```
 
-
-
 - osm.passenger.trips.xml
 
 - osm.bicycle.trips.xml
@@ -468,8 +419,6 @@ Yolculukların tanımları
 - osm.motorcycle.trips.xml
 
 - osm.pedestrian.rou.xml
-
-
 
 Ekranda gördüğümüz yeşil alanlar binalar gibi unsurlar poligon olarak tutulmaktadır. Bunlarda aşağıdaki dosyada saklanmaktadır.
 
@@ -479,19 +428,13 @@ Ekranda gördüğümüz yeşil alanlar binalar gibi unsurlar poligon olarak tutu
 
 - osm.poly.xml
 
-
-
 Burada dikkat ederseniz araçların şekilleri standart opsiyonlara aşağıdaki linklerden erişebilirsiniz.
 
 [Vehicle Type Parameter Defaults - SUMO Documentation](https://sumo.dlr.de/docs/Vehicle_Type_Parameter_Defaults.html)
 
 [Definition of Vehicles, Vehicle Types, and Routes - SUMO Documentation](https://sumo.dlr.de/docs/Definition_of_Vehicles,_Vehicle_Types,_and_Routes.html#vehicle_types)
 
-
-
 Normalde aşağıdaki dosyalar bizim çalışmamız için yeterlidir. 
-
-
 
 - osm.sumocfg
 
@@ -507,11 +450,7 @@ Normalde aşağıdaki dosyalar bizim çalışmamız için yeterlidir.
 
 - osm.poly.xml
 
-
-
 osm.net.xml dosyasında yapılan değişikliklerin trips.xml dosyalarına yansıtılması için built.bat dosyasını kullanıyoruz. Yol tanımlarına göre yolcukllar tekrar rast gelebir şekilde oluşturuluyor.
-
-
 
 build.bat
 
@@ -520,7 +459,6 @@ python "%SUMO_HOME%\tools\randomTrips.py" -n osm.net.xml --fringe-factor 1 -p 0.
 python "%SUMO_HOME%\tools\randomTrips.py" -n osm.net.xml --fringe-factor 2 -p 0.554801 -o osm.bicycle.trips.xml -e 3600 --vehicle-class bicycle --vclass bicycle --prefix bike --fringe-start-attributes "departSpeed=\"max\"" --max-distance 8000 --trip-attributes "departLane=\"best\"" --validate
 python "%SUMO_HOME%\tools\randomTrips.py" -n osm.net.xml --fringe-factor 2 -p 0.786494 -o osm.motorcycle.trips.xml -e 3600 --vehicle-class motorcycle --vclass motorcycle --prefix moto --fringe-start-attributes "departSpeed=\"max\"" --max-distance 1200 --trip-attributes "departLane=\"best\"" --validate
 python "%SUMO_HOME%\tools\randomTrips.py" -n osm.net.xml --fringe-factor 5 -p 0.262373 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate
-
 ```
 
 sonrasında tekrardan çalıştırmak için run.bat dosyasını seçmemiz yeterlidir.
@@ -588,10 +526,7 @@ sumo için osm.net.xml'e dönüştürdüğünü görürürüz.
     </report>
 
 </configuration>
-
 ```
-
-
 
 ```xml
     <input>
@@ -605,8 +540,6 @@ sumo için osm.net.xml'e dönüştürdüğünü görürürüz.
         <output.original-names value="true"/>
     </output>
 ```
-
-
 
 **osm.polycfg** ise sonrasında hem osm.net.xml hem de osm_bbox.osm.xml dosyasını girdi olarak alarak ekranda gördüğümüz yeşillikler binalar için poligon dosyasını oluşturur (**osm.poly.xml**)
 
@@ -634,44 +567,27 @@ sumo için osm.net.xml'e dönüştürdüğünü görürürüz.
     </report>
 
 </configuration>
-
 ```
 
 > Burada unutulmaması gereken unsur. Yolların bağlantıları netedit ile değiştirildiğinde yolculukların tekrar build.bat ile oluşturulmasıdır.
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-17-57-image.png)
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-18-33-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-18-23-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-19-34-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-19-48-image.png)
-
-
 
 Bu şekilde açtıktan sonra netedit ile düzenlemek için Open in netedit seçilir.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-20-20-image.png)
 
-
-
 Aşağıdaki gibi netedit yol oluşturma modunda açılır.
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-20-51-image.png)
-
-
 
 Burada dikkat edilmesi gereken durum hangi modda olduğunuzdur.
 
@@ -683,31 +599,21 @@ Benzer şekilde ana menü üzerinde de aynı işleve sahip butonlar vardır
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-23-14-image.png)
 
-
-
 ## Silme İşlemi (Select Mode)
 
 Bir şeyleri seçip silmek için Select Mode seçilir ve Mouse ile seçilip Delete'e basılır. 
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-24-31-image.png)
-
-
 
 F5 ile veya Processing -> Compute Junctions ile bağlantılar tekrar otomatik hesaplanır.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-02-01-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-25-45-image.png)
 
 ## Silme İşlemi (Delete Mode)
 
 Delete Mode direk silmek için kullanılır. Tıkladığınız herşey silinir.
-
-
 
 ## Sürükleme İşlemi (Move Mode)
 
@@ -716,8 +622,6 @@ Yolları sağa sola çekmek için kullanılrı.
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-28-36-image.png)
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-28-50-image.png)
-
-
 
 F5 ile veya Processing -> Compute Junctions ile bağlantılar tekrar otomatik hesaplanır.
 
@@ -728,8 +632,6 @@ Bu hali kaydedip tekrar build.bat ile yolculukları oluşturalım. Herşeyi kapa
 Build.bat'ı çalıştırın
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-33-15-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-32-54-image.png)
 
@@ -745,8 +647,6 @@ Modifiye edilmiş ve silinmiş yolumuz değişikliklere yansıdı
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-36-11-image.png)
 
-
-
 Şimdi yollara ekleme yapalım ve şerit sayıları ile oynayalım. 
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-38-02-image.png)
@@ -759,13 +659,9 @@ netedit'de yollarımızı açalım
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-39-30-image.png)
 
-
-
 şuraya alternatif bir yol koyalım
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-15-39-59-image.png)
-
-
 
 Edge Mode seçilir
 
@@ -804,8 +700,6 @@ Yolu Kullanamayacakların yani Yasaklı Listesi
 Genişleme yönü şerit eklendiğinde sağa mı solamı yoksa ortaya doğrumu diye
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-06-20-image.png)
-
-
 
 Burada her şerit için ayrı ayrı izin olayları ayarlanabilir
 
@@ -855,15 +749,9 @@ Inspect mode alıp save edelim.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-14-38-image.png)
 
-
-
 Ayarları değiştirmediğiniz müddetçe bir sonraki yollarda aynı şekilde çizilir.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-15-21-image.png)
-
-
-
-
 
 Network Mode seçilerek bu yolun nerelere doğru akacağı seçilir. 
 
@@ -881,19 +769,11 @@ Sarı çakışan yollar.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-26-17-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-28-06-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-27-51-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-28-46-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-29-03-image.png)
 
@@ -905,25 +785,15 @@ build.bat ile tekrar oluşturup run.bat ile çalıştıralım
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-37-11-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-37-59-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-38-21-image.png)
 
-
-
 Böylelikle ekleme ve çıkartma işlemleri başarılı bir şekilde tamamlanmış oldu.
-
-
 
 # Araç Yoğunluk Takip Dedektörü Konulması
 
 [Lanearea Detectors (E2) - SUMO Documentation](https://sumo.dlr.de/docs/Simulation/Output/Lanearea_Detectors_%28E2%29.html)
-
-
 
 Kapattıktan sonra tekrar run.bat ile açıp modlardan Additional Mode seçilerek 
 
@@ -931,15 +801,9 @@ otobüs durağı, park alanı, araç sayıcısı gibi unsurlar eklenir.
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-42-32-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-43-07-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-43-18-image.png)
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-43-25-image.png)
 
@@ -947,15 +811,9 @@ Yeni eklenen e2 detectorleri bir dosyaya kaydetmemiz sonra ana projeye eklememiz
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-44-09-image.png)
 
-
-
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-47-39-image.png)
 
-
-
 osm.sumocfg dosyasını açıp bu yeni dosyayı aşağıdaki additional-files kısmına ekliyoruz.
-
-
 
 ![](https://raw.githubusercontent.com/ucoruh/rize-bel-sumo-traffic/master/assets/2021-10-29-16-48-35-image.png)
 
@@ -996,7 +854,7 @@ ve şu şekilde güncelliyoruz
 
 ```xml
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-		  <laneAreaDetector id="e2Detector_gneE1_1_1" lane="gneE1_1" pos="33.52" length="10.00" freq="300.00" file="e2Detector_gneE1_1_1.xml"/>  
+          <laneAreaDetector id="e2Detector_gneE1_1_1" lane="gneE1_1" pos="33.52" length="10.00" freq="300.00" file="e2Detector_gneE1_1_1.xml"/>  
           <laneAreaDetector id="e2Detector_gneE1_2_0" lane="gneE1_2" pos="30.11" length="10.00" freq="300.00" file="e2Detector_gneE1_2_0.xml"/>
 </additional>
 ```
@@ -1047,8 +905,6 @@ e2Detector_gneE1_2_0.xml
 </detector>
 ```
 
-
-
 The values are described in the following table.
 
 | Name                        | Type                 | Description                                                                                                                                                                                                 |
@@ -1079,8 +935,6 @@ The values are described in the following table.
 | startedHalts                | #                    | The number of started halts. Please note that during an interval a vehicle may stop halting and enter a new halting state.                                                                                  |
 | meanVehicleNumber           | #                    | The mean number of vehicles that were on the detector (averaged over the interval duration).                                                                                                                |
 | maxVehicleNumber            | #                    | The maximum number of vehicles that were on the detector area during the interval.                                                                                                                          |
-
-
 
 # Raporlar
 
