@@ -12,6 +12,10 @@ Aşağıdaki linkten kurulum dosyasına ve açıklamaların olduğu siteye eriş
 
 [Eclipse SUMO - Simulation of Urban MObility](https://www.eclipse.org/sumo/)
 
+Projeye katkıda bulunanların listesi
+
+[SUMO at a Glance - SUMO Documentation](https://sumo.dlr.de/docs/SUMO_at_a_Glance.html#contributors_and_participants) 
+
 # Kurulum
 
 ## Ön Gereksinimlerin Kurulması
@@ -946,3 +950,75 @@ The values are described in the following table.
 - PMx emission
 - NOx emission
 - fuel consumption
+
+
+
+# ArcView dosyalarının SUMO'da kullanılması
+
+[ArcView - SUMO Documentation](https://sumo.dlr.de/docs/Networks/Import/ArcView.html)
+
+
+
+# Toplu Taşıma Tanımlarının Yapılması
+
+[Public Transport Tutorial - SUMO Documentation](https://sumo.dlr.de/docs/Tutorials/PublicTransport.html)
+
+
+
+# Yayalar
+
+[Pedestrians - SUMO Documentation](https://sumo.dlr.de/docs/Simulation/Pedestrians.html)
+
+
+
+
+
+# İstatistiklerden Trafik Taleplerinin Oluşturulması
+
+## Activity-based Demand Generation
+
+[Activity-based Demand Generation - SUMO Documentation](https://sumo.dlr.de/docs/Demand/Activity-based_Demand_Generation.html#limitations)
+
+[Automatic Routing - SUMO Documentation](https://sumo.dlr.de/docs/Demand/Automatic_Routing.html)
+
+[Lehrstuhl für Datenverarbeitung: Fidens](https://web.archive.org/web/20120313075112/http://www.ldv.ei.tum.de/en/research/fidens/)
+
+[Dynamic User Assignment - SUMO Documentation](https://sumo.dlr.de/docs/Demand/Dynamic_User_Assignment.html)
+
+
+
+
+
+# Simulasyon Ortamıyla Dışarıdan Etkileşim
+
+[Automatic Routing - SUMO Documentation](https://sumo.dlr.de/docs/Demand/Automatic_Routing.html#traci)
+
+[TraCI4Traffic Lights - SUMO Documentation](https://sumo.dlr.de/docs/Tutorials/TraCI4Traffic_Lights.html)
+
+[Interfacing TraCI from Python - SUMO Documentation](https://sumo.dlr.de/docs/TraCI/Interfacing_TraCI_from_Python.html)
+
+[Python: module traci._lanearea](https://sumo.dlr.de/pydoc/traci._lanearea.html)
+
+[Libsumo - SUMO Documentation](https://sumo.dlr.de/docs/Libsumo.html)
+
+[Sumolib - SUMO Documentation](https://sumo.dlr.de/docs/Tools/Sumolib.html)
+
+[Simpla - SUMO Documentation](https://sumo.dlr.de/docs/Simpla.html)
+
+[TraCIPedCrossing - SUMO Documentation](https://sumo.dlr.de/docs/Tutorials/TraCIPedCrossing.html)
+
+
+
+
+
+# Eclipse Sumo Kodunun Derlenmesi
+
+Aşağıdaki linkten kodun temini ile ilgili kısımları uygulayınız.
+
+[GitHub - eclipse/sumo: Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.](https://github.com/eclipse/sumo)
+
+
+
+Windows İşletim Sistemi için aşağıdaki adımları uygulayınız.
+
+[Windows Build - SUMO Documentation](https://sumo.dlr.de/docs/Installing/Windows_Build.html)
