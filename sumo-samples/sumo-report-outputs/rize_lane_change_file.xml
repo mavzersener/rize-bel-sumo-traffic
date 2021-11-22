@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-22 02:42:53 by Eclipse SUMO sumo Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="rize.net.xml"/>
+        <route-files value="rize.rou.xml"/>
+        <additional-files value="osm.poly.xml"/>
+    </input>
+
+    <output>
+        <lanechange-output value="rize_lane_change_file.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+</configuration>
+-->
+
+<lanechanges>
+    <change id="18" type="DEFAULT_VEHTYPE" time="40.00" from="707313622#1_0" to="707313622#1_1" dir="1" speed="24.20" pos="396.15" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="39" type="DEFAULT_VEHTYPE" time="52.00" from="707313624#1_0" to="707313624#1_1" dir="1" speed="6.30" pos="5.40" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="142.85" followerSecureGap="74.61" followerSpeed="23.99" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="39" type="DEFAULT_VEHTYPE" time="75.00" from="704147945_1" to="704147945_0" dir="-1" speed="25.53" pos="63.58" reason="keepRight" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="49" type="DEFAULT_VEHTYPE" time="85.00" from="704147946#1_0" to="704147946#1_1" dir="1" speed="27.11" pos="281.51" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="40" type="DEFAULT_VEHTYPE" time="115.00" from="704523453_1" to="704523453_0" dir="-1" speed="32.75" pos="6.45" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="45.52" followerSecureGap="0.00" followerSpeed="26.87" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="49" type="DEFAULT_VEHTYPE" time="117.00" from="707313623_1" to="707313623_0" dir="-1" speed="18.13" pos="52.03" reason="keepRight" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="3" type="DEFAULT_VEHTYPE" time="160.00" from="707313624#1_0" to="707313624#1_1" dir="1" speed="6.54" pos="5.57" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="41" type="DEFAULT_VEHTYPE" time="166.00" from="707313623_1" to="707313623_0" dir="-1" speed="19.90" pos="62.88" reason="keepRight" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="43" type="DEFAULT_VEHTYPE" time="177.00" from="707313625#1_0" to="707313625#1_1" dir="1" speed="11.61" pos="0.15" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="48" type="DEFAULT_VEHTYPE" time="183.00" from="707313625#2_0" to="707313625#2_1" dir="1" speed="15.48" pos="10.26" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="16" type="DEFAULT_VEHTYPE" time="199.00" from="980722880#1_1" to="980722880#1_0" dir="-1" speed="6.67" pos="0.65" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+    <change id="37" type="DEFAULT_VEHTYPE" time="584.00" from="707313624#1_0" to="707313624#1_1" dir="1" speed="6.80" pos="0.81" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None"/>
+</lanechanges>

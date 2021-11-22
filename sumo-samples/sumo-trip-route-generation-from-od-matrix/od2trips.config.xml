@@ -1,0 +1,14 @@
+<configuration>
+	
+	<input>
+		<taz-files values="taz_file.taz.xml"/>
+		<od-matrix-files values="OD_file.od"/>
+	</input>
+	
+	<!--
+	<output>
+		<output-filename value="trial.odtrips.xml"/>
+	</output>
+	-->
+	
+</configuration>

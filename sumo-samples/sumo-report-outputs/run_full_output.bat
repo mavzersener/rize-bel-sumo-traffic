@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --full-output rize_full_output.xml

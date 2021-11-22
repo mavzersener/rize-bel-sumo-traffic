@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --fcd-output sumoTrace.xml

@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --netstate-dump rize_dump_file.xml

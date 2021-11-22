@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --vtk-output rize_vkt_file.xml

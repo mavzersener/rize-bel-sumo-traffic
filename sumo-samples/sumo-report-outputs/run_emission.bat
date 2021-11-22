@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --emission-output rize_emission_file.xml

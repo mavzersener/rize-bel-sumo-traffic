@@ -1,0 +1,1 @@
+sumo -c rize.sumocfg --collision-output rize_collision_file.xml

@@ -1,0 +1,1 @@
+duarouter -c duarcfg_file.trips2routes.duarcfg -o od_route_file.odtrips.rou.xml

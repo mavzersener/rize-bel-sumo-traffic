@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-11-22 10:58:37 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <route-files value="C:\Users\ugur.coruh\Desktop\arcview\netedit-sample\helloworld.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="gneE18 gneE19 gneE20 gneE10 gneE23 gneE24 gneE15 gneE27 gneE28 gneE18 gneE19 gneE20 gneE10 gneE23 gneE24 gneE15 gneE27 gneE2 gneE30 gneE22 gneE23 gneE24 gneE15 gneE27 gneE2 gneE30 gneE22 gneE23 gneE24 gneE25 gneE30 gneE22 gneE23 gneE24 gneE25 gneE30 gneE22 gneE23 gneE24 gneE25 gneE30 gneE22 gneE23 gneE24 gneE15 gneE27 gneE2" color="yellow" id="route_0"/>
+    <vehicle id="vehicle_0" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_1" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_2" depart="0.00" route="route_0"/>
+    <vehicle id="vehicle_3" depart="0.00" route="route_0"/>
+</routes>

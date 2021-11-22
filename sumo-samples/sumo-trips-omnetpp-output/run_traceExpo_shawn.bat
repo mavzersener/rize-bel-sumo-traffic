@@ -1,0 +1,1 @@
+traceExporter --fcd-input sumoTrace.xml --shawn-output myShawnfile.xml

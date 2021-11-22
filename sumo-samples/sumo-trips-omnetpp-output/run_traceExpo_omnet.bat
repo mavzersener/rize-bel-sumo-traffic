@@ -1,0 +1,1 @@
+traceExporter --fcd-input sumoTrace.xml --omnet-output myOMNETfile.xml
